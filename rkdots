@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "$*" | ./to_dots.rb > expr.dot
+dot -Tpng -O expr.dot

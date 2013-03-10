@@ -1,0 +1,10 @@
+rkdots
+------
+
+Generates a dot file for the given javascript expression.
+
+Example:
+
+  ./rkdots 'var x = 1 + 2 * 3;'
+  feh expr.dot.png
+
